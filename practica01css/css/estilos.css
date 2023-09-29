@@ -64,3 +64,36 @@ header nav ul li {
     width: 98%;
     border: 5px solid rgba(150, 150, 150, 0.5);
 }
+
+#Seccion02 {
+    margin-bottom: 50px;
+}
+
+#Seccion02 article {
+    /*border: 1px solid blue;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+#Seccion02 article input[type="submit"] {
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 115px;
+   /* display: block;
+    margin: 0px auto;*/
+    padding: 12px;
+}
+
+.nito {
+    font-weight: bold; /* Negritas */
+}
+
+.otraSeccion {
+    font-size: 2.5em; /* 16px(valor determinado en body) x 2.5 */
+}
+
+.unaSeccion {
+    font-size: 4.5em;   /* 16px(valor determinado en body) x 4.5 */
+}
