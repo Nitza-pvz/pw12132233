@@ -88,6 +88,16 @@ footer img {
     width: 30%;
 }
 
+#secc01Art02 ul {
+    /* Eliminar vinetas */
+    list-style: none;
+}
+
+#secc01Art02 ul li:before {
+    color: #FF0099;
+    content: "• ";
+}
+
 #secc03Art04 {
     padding-left: 25px;
     padding-top: 40px;
