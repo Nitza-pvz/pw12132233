@@ -1,15 +1,30 @@
 body {
-    border: 1px solid red;
     font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
 }
 
+footer article {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: top;
+    width: 31.1%;
+}
+
+footer img {
+    width: 300px;
+}
+
 header nav ul li {
     display: inline-block;
-    padding: 8px 10px;
+    padding: 8px 14px;
     text-align: center;
     width: 17.0%;
+}
+
+header ul {
+    margin-left: -38px;
 }
 
 header nav ul li:nth-child(2) { /*nth Enesimo (elemento)*/
@@ -28,6 +43,77 @@ header nav ul li:nth-child(5) { /*nth Enesimo (elemento)*/
     background: lightgray;   
 }
 
+hr {
+    border-style: dashed;
+    color: #949494;
+}
+
+section, footer {
+    background: #2C2C2C;
+}
+
+section article {
+    display: inline-block;
+    height: 280px;
+    padding: 18px 8px;
+    vertical-align: top;
+    width: 17.9%;
+}
+
+section article:nth-child(2){
+    background: #849C3C;
+}
+
+section article:nth-child(3){
+    background: #353535;
+}
+
+section article:nth-child(4){
+    background: #D33040;
+}
+
+section article:nth-child(5){
+    background: lightgray;
+}
+
+section article img {
+    width: 150px;
+}
+
+section article ul {
+    list-style: none;
+}
+
+section article ul li {
+    margin-bottom: 10px;
+}
+
+.letraAzul {
+    color: lightblue;
+}
+
 .letraBlanca {
     color: white;
 }
+
+.letraGris {
+    color: #949494;
+}
+
+.nito {
+    font-weight: bold;
+}
+
+.readMore {
+    margin-left: 220px;
+}
+
+.tam_MenuLateral {
+    font-size: 1.1em;
+}
+
+.tam_Tarjetas {
+    font-size: 1.7em;
+}
+
+/* Pagina: paleta de colores . online*/
