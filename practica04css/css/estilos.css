@@ -1,10 +1,8 @@
 body {
-    border: 1px solid red;
     font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
 }
-
 header article {
     display: inline-block;
     vertical-align: top;
@@ -83,7 +81,7 @@ footer article {
     width: 35%;
 }
 #Sec02 {
-    margin-top: -50px;
+    margin-top: -20px;
     margin-bottom: 40px;
     margin-left: 10px;
 }
