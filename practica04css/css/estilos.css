@@ -1,0 +1,124 @@
+body {
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header article {
+    display: inline-block;
+    vertical-align: top;
+}
+header nav ul {
+    margin-left: -30px;
+}
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 8px;
+}
+footer article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#Art01 {
+    width: 58%;
+}
+#Art01 img {
+    margin: 30px 30px;
+}
+#Art02_Images {
+    display: inline-block;
+    margin-left: 85px;
+    width: 33%;
+}
+#Art02_Logos {
+    text-align: right;
+    padding: 10px 0px;
+    width: 100%;
+}
+#Art02_Logos img {
+    height: 30px;
+    padding: 0px 3px;
+}
+#Art02_GoShop {
+    text-align: center;
+    width: 100%;
+}
+#Art02_GoShop img {
+    margin-right: 40px;
+    height: 65px;
+}
+#Art02_Buy {
+    text-align: left;
+    width: 100%;
+}
+#Art02_Buy img {
+    height: 65px;
+    margin-top: -10px;
+}
+#Sec01 article {
+    display: inline-block;
+}
+#Sec01Art01 {
+    width: 57%;
+}
+#Sec01Art01 img {
+    margin-left: 5px;
+    width: 48%;
+}
+#Sec01Art02 {
+    vertical-align: top;
+    width: 39%;
+}
+#Sec01Art02 img:nth-child(1) {
+    padding-left: 50px;
+    vertical-align: top;
+    width: 95%;
+}
+#Sec01Art02 img:nth-child(2) {
+    position: relative;
+    bottom: 80px;
+    width: 35%;
+}
+#Sec02 {
+    margin-top: -50px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+#Sec02 img {
+    height: 20px;
+    margin-left: 3px;
+}
+footer article {
+    margin: 8px;
+    width: 17%;
+}
+footer article:nth-child(5) {
+    margin: 8px;
+    width: 21%;
+}
+
+.letraGris {
+    color: #808080;
+}
+.letraVerde{
+    color: #78F14C;
+}
+.nito {
+    font-weight: bold;
+}
+.rayita {
+    border-style: dashed;
+    color: #808080;
+}
+.tam_Encabezado {
+    font-size: 1.1em;
+}
+.tam_General {
+    font-size: 1.2em;
+}
+.tam_Titulo {
+    font-size: 4.4em;
+}
