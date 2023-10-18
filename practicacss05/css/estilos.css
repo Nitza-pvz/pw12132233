@@ -6,7 +6,7 @@ body {
 }
 
 section {
-    background: white;
+    background: #EFEFEF;
     border-radius: 5px;
     height: 700px;
     margin: 0px auto;
@@ -29,6 +29,10 @@ section {
 #Art01_Barra img {
     height: 30px;
     margin: 5px;
+    vertical-align: bottom;
+}
+#Art01_Barra img:nth-child(1){
+    height: 35px;
 }
 #Art02_Panels {
     width: 24%;
@@ -54,6 +58,7 @@ section {
     width: 72%;
 }
 #Art03_Forms_Cubos {
+    margin-top: 15px;
     width: 100%;
 }
 #Art03_Forms_Cubos article {
