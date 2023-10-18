@@ -1,0 +1,130 @@
+body {
+    background: #275E90;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+section {
+    background: white;
+    border-radius: 5px;
+    height: 700px;
+    margin: 0px auto;
+    width: 99%;
+}
+
+#body_Logo {
+    margin-left:40%;
+    width: 22%;
+}
+#SecArts article {
+    display: inline-block;
+    vertical-align: top;
+}
+#Art01_Barra {
+    margin-left: 70%;
+    padding-top: 5px;
+    width: 100%;
+}
+#Art01_Barra img {
+    height: 30px;
+    margin: 5px;
+}
+#Art02_Panels {
+    width: 24%;
+}
+#Art02_Panels article {
+    margin-left: 10px;
+}
+#Art02_Panels article:nth-child(1) {
+    background: #204A71;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-top: -5px;
+}
+#Art02_Panels img {
+    width: 100%;
+}
+#Art02_Panels_Barras img {
+    padding: 5px 0px;
+    margin-left: 2px;
+}
+#Art03_Forms {
+    margin-left: 30px;
+    width: 72%;
+}
+#Art03_Forms_Cubos {
+    width: 100%;
+}
+#Art03_Forms_Cubos article {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 5px;
+    text-align: center;
+    width: 19.3%;
+}
+#Art03_Forms_Cubos article img {
+    padding: 0px 20px;
+    height: 55px;
+}
+#Art03_Forms_Cubos_01 {
+    background: #25A62C;
+}
+#Art03_Forms_Cubos_02 {
+    background: #216EA7;
+}
+#Art03_Forms_Cubos_03 {
+    background: #7E24A6;
+}
+#Art03_Forms_Cubos_04 {
+    background: #A51C1F;
+}
+#Art03_Forms_Panels {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+#Art03_Forms_Panels img {
+    width: 100%;
+}
+#Art03_Forms_Usuarios {
+    display: inline-block;
+    width: 100%;
+}
+#Art03_Forms_Usuarios article {
+    background: #4B6DAC;
+    display: inline-block;
+    margin-left: 4px;
+    text-align: center;
+    width: 23.5%;
+}
+#Art03_Forms_Usuarios img {
+    height: 120px;
+    padding: 5px 2px 10px 10px;
+}
+#Art03_Forms_Usuarios input[type="submit"] {
+    background: #5CC5DA;
+    border-radius: 2px;
+    border-style: none;
+    margin: 8px 0px;
+    padding: 6px 8px;
+}
+
+.letraBlanca {
+    color: white;
+}
+.letraGris {
+    color: #797979;
+}
+.margin_PanelBarras {
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+.margin_PanelLinks {
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+.text_Usuarios {
+    font-size: 1.3em;
+}
