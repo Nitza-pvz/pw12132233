@@ -129,6 +129,7 @@ section {
 .margin_PanelLinks {
     margin-left: 20px;
     padding: 10px 0px;
+    line-height: 1.6;
 }
 .text_Usuarios {
     font-size: 1.3em;

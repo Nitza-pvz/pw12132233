@@ -1,0 +1,113 @@
+body {
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+section {
+    margin: 50px 0px;
+    vertical-align: middle;
+}
+section img {
+    margin-bottom: 60px;
+    width: 60px;
+}
+section table {
+    display: inline-block;
+    table-layout: fixed;
+    vertical-align: top;
+    width: 33%;
+}
+section table td {
+    padding: 20px 0px;
+}
+section table:first-child {
+    margin-left: 120px;
+}
+section table:last-child {
+    margin-left: 50px;
+}
+footer {
+    background: black;
+}
+footer article {
+    display: inline-block;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 35px 43px;
+    vertical-align: top;
+}
+footer article:last-child {
+    margin-top: 150px;
+}
+footer img {
+    width: 40px;
+}
+
+#Header_Art01 {
+    background: black;
+    height: 60px;
+    vertical-align: middle;
+}
+#Header_Art01 img {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 40px;
+}
+#Header_Art01 span {
+    position: relative;
+    bottom: 12px;
+}
+#Header_Art01 form {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+#Header_Art01 form input {
+    border-radius: 5px;
+}
+#Header_Art01 form input[type="button"]:first-child {
+    background: black;
+    border: 1px solid white;
+    margin-left: 5px;
+    padding: 7px 14px;
+}
+#Header_Art01 form input[type="button"]:last-child {
+    background: #4B5ED7;
+    margin-left: 5px;
+    padding: 7px 22px;
+}
+#Header_Art02 {
+    background-color: #DADBF1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 80px 0px;
+}
+#Header_Art02 input[type="search"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px 10px;
+    width: 55%;
+}
+
+.letraAzul {
+    color: #525CD3;
+}
+.letraBlanca {
+    color: white;
+}
+.text_Articles {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nito {
+    font-weight: bold;
+}
+.tam_Titulo {
+    font-size: 3.5em;
+}
+.tam_Mini {
+    font-size: 0.7em;
+}
+.tam_General {
+    font-size: 1em;
+}
