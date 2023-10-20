@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+#Header_Art01 article {
+    display: inline-block;
+    width: 32.5%;
+}
+
+#Header_Art02 {
+    text-align: center;
+}
+#Header_Art03 article {
+    display: inline-block;
+    vertical-align: top;
+    width: 32.5%;
+}
+#Header_Art03 article article {
+    width: 40%;
+}
+#Sec02 article {
+    display: inline-block;
+    vertical-align: top;
+}
+#Sec02 article:first-child {
+    width: 58%;
+}
+#Sec02 article:last-child {
+    width: 41%;
+}
+#Sec02 img {
+    width: 100%;
+}
+
+
+.letraBlanca {
+    color: white;
+}
+.nito {
+    font-weight: bold;
+}
+.Titulo {
+    font-size: 9em;
+    text-align: center;
+}
