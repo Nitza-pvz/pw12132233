@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica JavaScript 01</title>
+</head>
+<body>
+    <script>
+        //Contantes
+        const pi = 3.1416;
+
+        //Comentarios
+        /*Comentarios*/
+
+        //Creacion de una variable
+        var a = 22;
+        var b = "HolaMundo";
+        //Objeto que tiene acceso a todo el body del navegador
+        document.writeln("Valor de a: "+a);
+        if (b != undefined)
+            document.writeln("Valor de b: "+b);
+        //document.writeln("Valor de z: "+z);
+
+        for (let a=0;a<=10;a++){
+            document.writeln(a);
+        }
+        document.writeln(a);
+
+        alert("Hola JS");
+        let n = prompt("Dame tu nombre");
+
+        if (n != null)
+            document.writeln("<br>"+n);
+
+        let y = 8;
+        let z = 2;
+        document.writeln("<br>");
+        document.writeln("La suma fue: "+y+z);
+        document.writeln("<br>La suma fue: "+(y+z));
+        document.writeln(`<br>La suma fue: ${y}+${z}`);
+        
+        function suma(a, b) {
+            return a+b;
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Characters</title>
+</head>
+<body>
+    <label for="cantidad">Personajes aleatorios: </label>
+    <input type="number" id="cantidad">
+    <button onclick="apimarvel();">
+        Characters
+    </button>
+    <p></p>
+    <article id="caja">
+        <br>
+        <img id="foto" style="border-radius: 100px;">
+        <span id="nombre"></span> <br>
+        <span id="descripcion"></span> <br>
+        <span id="comicsDisponibles"></span>
+    </article>
+    <button onclick="anterior();"> <-- Anterior </button>
+    <button onclick="siguiente();"> Siguiente --> </button>
+    <script src="marvel.js"></script>
+</body>
+</html>
